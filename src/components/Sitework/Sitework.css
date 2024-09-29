@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+        .sitework {
+          font-family: 'Poppins', sans-serif;
+        }
+
+        .name {
+          text-align: center;
+          font-size: 50px;
+          font-weight: 500;
+          margin-top: 10px;
+          margin-bottom: 40px;
+          color: #ffffff;
+        }
+
+        .work {
+          min-height: 450px;
+          background: linear-gradient(rgba(8,0,58,0.7), rgba(8,0,58,0.7)), url('../../assets/bg_3.jpg');
+          background-size: cover;
+          background-position: center;
+          color: aliceblue;
+          padding: 40px 20px;
+        }
+
+        .site {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-wrap: wrap;
+          gap: 40px;
+        }
+
+        .work-item {
+          text-align: center;
+          flex: 1 1 200px;
+          max-width: 250px;
+        }
+
+        .img {
+          width: 150px;
+          height: 150px;
+          object-fit: cover;
+          border-radius: 10px;
+          transition: transform 0.3s ease;
+        }
+
+        .img:hover {
+          transform: scale(1.05);
+        }
+
+        .intext {
+          margin-top: 15px;
+          color: white;
+          font-size: 18px;
+          font-weight: bold;
+          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+
+        @media (max-width: 768px) {
+          .name {
+            font-size: 40px;
+            
+          }
+
+          .work {
+            padding: 30px 15px;
+            
+          }
+
+          .site {
+            gap: 30px;
+          }
+
+          .work-item {
+            flex: 1 1 150px;
+            max-width: 200px;
+          }
+
+          .img {
+            width: 120px;
+            height: 120px;
+            margin-left: 140px;
+          }
+
+          .intext {
+            font-size: 16px;
+            text-align: center;
+
+          }
+        }
+
+        @media (max-width: 480px) {
+          .name {
+            font-size: 32px;
+            margin-bottom: 30px;
+          }
+
+          .work {
+            padding: 20px 10px;
+          }
+
+          .site {
+            gap: 20px;
+          }
+
+          .work-item {
+            flex: 1 1 100%;
+            max-width: none;
+          }
+
+          .img {
+            width: 100px;
+            height: 100px;
+          }
+
+          .intext {
+            font-size: 14px;
+          }
+        }

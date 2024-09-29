@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+
+        body {
+          font-family: 'Poppins', sans-serif;
+        }
+
+        .desktop-nav, .mobile-nav {
+          background-color: #ffffff;
+          padding: 20px 30px;
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          z-index: 1000;
+          box-shadow: 0 2px 5px rgba(238, 237, 237, 0.1);
+          transition: all 0.3s ease;
+        }
+
+        .desktop-nav {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          height: 120px;
+        }
+
+        .desktop-nav.scrolled {
+          padding: 10px 30px;
+          height: 100px;
+        }
+
+        .flex {
+          display: flex;
+          align-items: center;
+        }
+
+        h1.flex {
+          font-size: 25px;
+          font-weight: 500;
+        }
+
+        #logo, #mobile-logo {
+          width: 90px;
+          height: 90px;
+          margin-right: 10px;
+          transition: all 0.3s ease;
+        }
+
+        .scrolled #logo, .scrolled #mobile-logo {
+          width: 70px;
+          height: 70px;
+        }
+
+        ul.flex {
+          list-style-type: none;
+          gap: 20px;
+        }
+
+        .desktop-nav li {
+          font-size: 18px;
+          position: relative;
+        }
+
+        .desktop-nav a {
+
+          text-decoration: none;
+          color: #333;
+          transition: color 0.3s ease;
+        }
+
+        .desktop-nav a:hover {
+          color: #007bff;
+        }
+
+        .fle {
+          position: relative;
+          display: flex;
+        }
+
+        .down {
+          width: 22px;
+          height: 22px;
+          margin-left: 5px;
+        }
+
+        .dropdown {
+          display: none;
+          position: absolute;
+          top: 100%;
+          left: 0;
+          background-color: #ffffff;
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+          z-index: 999;
+          padding: 10px 0;
+        }
+
+        .fle:hover .dropdown {
+          display: block;
+        }
+
+        .dropdown li {
+          width: 200px;
+          padding: 10px 20px;
+        }
+
+        .mobile-nav {
+          display: none;
+          flex-direction: column;
+        }
+
+        .mobile-nav-header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+
+        .menu-toggle {
+          background: none;
+          border: none;
+          cursor: pointer;
+        }
+
+        .menu-toggle img {
+          width: 24px;
+          height: 24px;
+          margin-left: 140px;
+        }
+
+        .mobile-menu {
+          list-style-type: none;
+          padding: 20px 0;
+        }
+
+        .mobile-menu li {
+          margin-bottom: 15px;
+        }
+
+        .mobile-menu a {
+          text-decoration: none;
+          color: #333;
+          font-size: 18px;
+        }
+
+        .mobile-dropdown > span {
+          display: block;
+          font-weight: bold;
+          margin-bottom: 10px;
+        }
+
+        .mobile-dropdown ul {
+          list-style-type: none;
+          padding-left: 20px;
+        }
+
+        .mobile-dropdown li {
+          margin-bottom: 10px;
+        }
+        .mobile-nav button:hover {
+           background-color: none;       
+      }
+
+        @media (max-width: 765px) {
+          .desktop-nav {
+            display: none;
+          }
+
+          .mobile-nav {
+            display: flex;
+          }
+        }

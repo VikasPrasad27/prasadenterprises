@@ -1,0 +1,161 @@
+.main {
+    height: 500px;
+    background-color: black;
+    color: #fff;
+    display: flex;
+
+}
+
+.address {
+    margin-top: 50px;
+     margin-left: 30px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.flexi {
+    text-wrap: wrap;
+    width: 250px;
+    margin-left: 30px;
+}
+
+.loc {
+    width: 30px;
+    height: 20px;
+}
+
+.loci {
+    width: 30px;
+    height: 25px;
+}
+
+.cont {
+    color: orange;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.contacti {
+    height: 400px;
+    width: 700px;
+    background-color: orange;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin-top: 40px;
+    margin-left:180px ;
+    color: black;
+}
+
+.contact h1 {
+    margin-bottom: 20px;
+}
+
+.form {
+    width: 100%;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: calc(50% - 10px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: calc(100% - 20px);
+}
+
+button {
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #333;
+}
+.map{
+    margin-top: 40px;
+    margin-right: 30px;
+}
+.map iframe {
+    border: none;
+    border-radius: 8px;
+    margin-left: 200px;
+    margin-top: 60px;
+}
+.btn{
+    height: 40px;
+    background-color: black;
+    border-radius: 40px;
+}
+.heading {
+    margin-bottom: 50px;
+    text-align: center;
+    color: black;
+    font-size: 35px;
+}
+#services{
+    color: black;
+}
+.credit{
+    color: #fff;
+    margin-bottom: 0%;
+    margin-right: 50px;
+}
+/* .servi{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.service{
+    height: 30px;
+    width: 30px;
+}
+.services{
+    display: flex;
+} */
+@media (max-width: 767px) { 
+    
+    .main{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+    .map iframe {
+        margin-left: 38px;
+
+    }
+    .contacti{
+        margin-top: 100px;
+        margin-left: 20px;
+        height: 400px;
+        width: 350px;
+        
+    }
+    .btn{
+        margin-left: 78px;
+    }
+}
