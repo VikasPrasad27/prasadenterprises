@@ -33,7 +33,7 @@ const Footer = () => {
           <img className="loci" src="https://cdn-icons-png.flaticon.com/128/15474/15474140.png" alt="Call Us" />CALL US NOW
         </h1>
         <p className="flexi">+91 9422027424</p>
-        <p className="flexi">020 287851122</p><br />
+        <p className="flexi">+91 8668271663</p><br />
         <h1 className="flex">
           <img className="loci" src="https://cdn-icons-png.flaticon.com/128/2972/2972528.png" alt="Opening Hours" /> OPENING HOURS
         </h1>
