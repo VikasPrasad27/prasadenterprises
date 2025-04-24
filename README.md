@@ -21,7 +21,7 @@ A modern, responsive, and visually appealing website built for a fabrication ser
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-![Home Page](./assets/homepage.png)
+![Home Page](../assets/homepage.png)
 
 ### 🛠️ Services Page
 ![Services Page](./assets/product.png)
