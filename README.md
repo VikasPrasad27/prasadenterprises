@@ -21,16 +21,13 @@ A modern, responsive, and visually appealing website built for a fabrication ser
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-![Home Page](./screenshots/home.png)
+![Home Page](./assets/homepage.png)
 
 ### 🛠️ Services Page
-![Services Page](./screenshots/services.png)
-
-### 👥 About Us Page
-![About Page](./screenshots/about.png)
+![Services Page](./assets/product.png)
 
 ### 📞 Contact Page
-![Contact Page](./screenshots/contact.png)
+![Contact Page](./assets/contact.png)
 
 
 ## 📦 Installation
