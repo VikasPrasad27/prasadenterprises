@@ -37,16 +37,16 @@ A modern, responsive, and visually appealing website built for a fabrication ser
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/fabrication-website.git
+git clone https://github.com/VikasPrasad27/prasadenterprises.git
 
 # Navigate into the project directory
-cd fabrication-website
+cd prasadenterprises
 
 # Install dependencies
 npm install
 
 # Start the development server
 npm run dev
-
---DESIGNED AND DEVELPOED BY VIKAS PRASAD
+```
+## DESIGNED AND DEVELPOED BY VIKAS PRASAD
 
