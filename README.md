@@ -1,6 +1,6 @@
 # 🏗️ Fabrication Service Website - Prasad Enterprises
 
-A modern, responsive, and visually appealing website built for a fabrication service business using **React.js** and **Tailwind CSS**. This project showcases services, client testimonials, contact forms, and more – all wrapped in a clean, intuitive UI to help boost client engagement and lead generation.
+A modern, responsive, and visually appealing website built for a fabrication service business using **React.js** and **CSS**. This project showcases services, client testimonials, contact forms, and more – all wrapped in a clean, intuitive UI to help boost client engagement and lead generation.
 
 ## 🚀 Features
 
@@ -14,7 +14,7 @@ A modern, responsive, and visually appealing website built for a fabrication ser
 ## 🛠️ Tech Stack
 
 - **Frontend:** [React.js](https://reactjs.org/)
-- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Styling:** [CSS](https://tailwindcss.com/)
 - **Build Tool:** [Vite](https://vitejs.dev/)
 
 
