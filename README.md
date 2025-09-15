@@ -4,7 +4,7 @@ A modern, responsive, and visually appealing website built for a fabrication ser
 
 ## 🚀 Features
 
-- ✨ **Responsive Design** – Fully mobile-friendly using Tailwind CSS.
+- ✨ **Responsive Design** – Fully mobile-friendly using CSS.
 - 📄 **Service Pages** – Detailed sections highlighting fabrication services.
 - 🧑‍💼 **About Us** – Introduction to the team and company mission.
 - 📞 **Contact Form** – Functional form with validation to reach out.
